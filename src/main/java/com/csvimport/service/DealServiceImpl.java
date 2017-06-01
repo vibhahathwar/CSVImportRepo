@@ -12,7 +12,6 @@ public class DealServiceImpl implements DealService{
 
 	@Autowired
 	DealDao dealdao;
-	@Override
 	public void process(List<String> filePath) {
 		// TODO Auto-generated method stub
 		dealdao.process(filePath);

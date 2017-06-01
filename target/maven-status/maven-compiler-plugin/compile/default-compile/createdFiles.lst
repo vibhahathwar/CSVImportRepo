@@ -4,7 +4,6 @@ com\csvimport\dao\DealDaoImpl.class
 com\csvimport\service\DealServiceImpl.class
 com\csvimport\model\FileUpload.class
 com\csvimport\validator\CommonUtils.class
-com\csvimport\dao\DealMapper.class
 com\csvimport\dao\DealDao.class
 com\csvimport\model\Deals.class
 com\csvimport\validator\FileValidator.class

@@ -34,5 +34,8 @@
    <beans:bean id="JDBCTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
                 <beans:constructor-arg ref="datasource" />
    </beans:bean>
+   <beans:bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<beans:property name="basename" value="validation" />		
+	</beans:bean>
 
 </beans:beans>
